@@ -1,0 +1,8 @@
+/* Clearfix style for floating elements */
+/* Place the clearfix empty div immediately before the element you wish to clear */
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
